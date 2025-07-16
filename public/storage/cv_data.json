@@ -1,0 +1,90 @@
+{
+  "name": "Ahmed Hassan",
+  "title": "Full Stack Developer",
+  "contact": {
+    "email": "ahmed.hassan@email.com",
+    "phone": "+213 555 123 456",
+    "location": "Annaba, Algeria"
+  },
+  "summary": "Passionate Full Stack Developer with 5+ years of experience building scalable web applications using modern technologies. Specialized in Laravel, React, and Vue.js with a strong focus on clean code, performance optimization, and user experience. Proven track record of delivering high-quality solutions for startups and enterprise clients.",
+  "experience": [
+    {
+      "position": "Senior Full Stack Developer",
+      "company": "TechCorp Solutions",
+      "duration": "2022 - Present",
+      "responsibilities": [
+        "Led development of 3 major web applications serving 10,000+ users",
+        "Implemented microservices architecture reducing system load by 40%",
+        "Mentored junior developers and conducted code reviews",
+        "Technologies: Laravel, React, PostgreSQL, Docker, AWS"
+      ]
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "Digital Agency Pro",
+      "duration": "2020 - 2022",
+      "responsibilities": [
+        "Developed and maintained 15+ client websites and web applications",
+        "Optimized database queries improving performance by 60%",
+        "Integrated third-party APIs and payment gateways",
+        "Technologies: PHP, Laravel, Vue.js, MySQL, Redis"
+      ]
+    },
+    {
+      "position": "Junior Web Developer",
+      "company": "StartupHub",
+      "duration": "2019 - 2020",
+      "responsibilities": [
+        "Built responsive websites using HTML, CSS, and JavaScript",
+        "Collaborated with design team to implement pixel-perfect UIs",
+        "Learned Laravel and contributed to team projects",
+        "Technologies: HTML, CSS, JavaScript, Bootstrap, Laravel"
+      ]
+    }
+  ],
+  "skills": {
+    "backend": {
+      "Laravel": "95%",
+      "PHP": "90%",
+      "Node.js": "80%"
+    },
+    "frontend": {
+      "React": "85%",
+      "Vue.js": "88%",
+      "Tailwind CSS": "92%"
+    },
+    "tools": [
+      "Git",
+      "Docker",
+      "AWS",
+      "MySQL",
+      "PostgreSQL",
+      "Redis",
+      "Nginx",
+      "Linux"
+    ]
+  },
+  "education": {
+    "degree": "Bachelor's Degree in Computer Science",
+    "institution": "University of Annaba",
+    "duration": "2015 - 2019",
+    "details": "Graduated with honors. Specialized in Software Engineering and Web Development. Completed final project on \"E-commerce Platform Development using Laravel\"."
+  },
+  "projects": [
+    {
+      "name": "E-Commerce Platform",
+      "description": "Full-featured e-commerce platform with admin dashboard, payment integration, and inventory management.",
+      "technologies": ["Laravel", "Vue.js", "MySQL"]
+    },
+    {
+      "name": "Task Management System",
+      "description": "Collaborative task management tool with real-time updates, team collaboration features, and reporting.",
+      "technologies": ["Laravel", "React", "PostgreSQL"]
+    }
+  ],
+  "languages": {
+    "Arabic": "Native",
+    "English": "Advanced",
+    "French": "Intermediate"
+  }
+}
