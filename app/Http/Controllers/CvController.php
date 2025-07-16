@@ -13,13 +13,13 @@ class CvController extends Controller
 {
     public function index()
     {
-        $data = Cache::get('data');
-        if (!$data) {
-            $json = file_get_contents(public_path('storage/cv_data.json'));
-            $data = json_decode($json, true);
-            Cache::put('data',$data,60);
-        }
-        return view('index', get_defined_vars());
+        // $data = Cache::get('data');
+        // if (!$data) {
+        //     $json = file_get_contents(public_path('storage/cv_data.json'));
+        //     $data = json_decode($json, true);
+        //     Cache::put('data',$data,60);
+        // }
+        return "Hello im lokman";
     }
 
     public function generatePDF()
