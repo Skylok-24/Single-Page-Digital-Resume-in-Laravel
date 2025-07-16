@@ -15,7 +15,7 @@ class CvController extends Controller
     {
         $data = Cache::get('data');
         if (!$data) {
-            $json = Storage::disk('public')->get('cv_data.json');
+            $json = file_get_contents(public_path('storage/cv_data.json'));
             $data = json_decode($json, true);
             Cache::put('data',$data,60);
         }
